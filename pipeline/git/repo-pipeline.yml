@@ -1,0 +1,23 @@
+resources:
+  - name: private-repo
+    type: git
+    source:
+      uri: ssh://git@((repo.uri))
+      branch: ((repo.branch))
+      private_key: (("github.com".private-repo-key))
+
+jobs:
+  - name: job-repo-pipeline
+    plan:
+      - get: private-repo
+        trigger: true
+      - task: task-repo
+        config:
+          platform: linux
+          image_resource:
+            type: registry-image
+            source:
+              repository: busybox
+          run:
+            path: echo
+            args: [ "this is an interval task job..." ]

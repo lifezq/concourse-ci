@@ -1,0 +1,32 @@
+repo:
+  uri: gitlab.energy-envision.com:30022/yangqianlei/citest.git
+  branch: master
+github.com:
+  private-repo-key: |
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEpAIBAAKCAQEAs48FN/LCgky+KQfflX1uSDWeW0wn56v9E8MN1tH03ClIkZiY
+    EGeEoL+Uf0m0xNoOpKaRSXxgTIY/z0qwTYNYf/wDjJe9n3QtuF8RKixUlQ5OAfwf
+    YGFw7ueP0TB5IhCB50z0WtaQDl10tY+oJJ64DcoQb0vKxVIncrhgBdnSyVbV/eNd
+    N+FKedxnyfVuG6AheWu7obToSf/m/OsuNcE9ur9p5P8ffPbnO5KmCTOESE4LawtM
+    6Q6oh2F7+yolzpt1MZ8JTryTgYNuI4D3yDCk97IhK7YcBI/h5DsLx1xd4KEeMUO8
+    xQ4ekFg9RZZwZaGK/OdH3+ueHeyjXk+9pVBsVQIDAQABAoIBAHvAZmhY95W2Lpk4
+    w+/Tst4xliJ2KkqRTqsAE9mqeogCK/GsqaEkt1PSthXERsIlR1JTOm7bOcOEAxZq
+    83d4vtX2arvLGPV8rMYVP09Bnkncwga8LSPQBHWjQot6TQIdPmqbrw2sMzyzTGyV
+    xdz3RwK58PnD0syMAoQebo+ZwJziBFREL0okcWS1cMNzs1OPpiHgHOXTsm2Jz1LZ
+    d6cV9Yw0FskOIqwKOlssqoMMXOTQNKn4lDanQN5eqQKWpDuEtXFmJVFNNKSRQC8h
+    uQKfIZs23rZJhQnZYRbbdvCcz5yDg9fMoxJF9TZc+J35ll4ozOhqFSgz7/IWyooT
+    88LbJgECgYEA4VeuVECEt+ZsOILS/eZIzAb/Fjs9gnOFgEamtoinuQFuzJJndkcx
+    g7Shu2zp+CPb61FYpgDhLaXnkRDdk7x6TgY+0CS3v9K/k9/EUCjiq0qvLqB9czZw
+    p8VPX+/yNEm/aG6n+P2ZXN0SzEYnJOV3yVaB5EjJI/JWW5oMhro7xp0CgYEAy/zD
+    Bob7v2mYJSldb1neq2gNEoy7Rej/uVf/Tpfkq0CPcP6XacO1ZGdAr5O5XFhsiju4
+    SN9Q/EEmcmO5/LPbxkjfgU5eY382oZXLexJtPLkddiRW4jBXY4/XXt+OEmmFqf90
+    WLAZZVCBHfXPTee6g/prkbxDcJ1EI9nak+vP8xkCgYAtYUj8MpoHpuG4Z7Ax7YRP
+    gkEwqvFyKe2Crbe5HsAYI8+6ZulrCl9QVLoVUpOzoxUQyKr/k0HFvZlqv2i/7b77
+    o4pWxG40tS5biz6vnew37qxkyXE6GIaLYtLfUSUHnqprT42IORn/d43nkWEkrwl2
+    hHNYE8hd8tmtTNKk9zA+iQKBgQCrXVw5T4yN8RdvoKBtuwHk3TSeMLviryqleddx
+    HwlrFIFsW3S31UG9Z0BgP6moemA0gJcAIRrXz6OM1VqZgD9RBEc/Sabhzy0F8eFP
+    Mtux95FYfo6+1f2UFnLHsOaZcSxo88G5/7ZV9puBn87Xk6SM2wMjGxVMtdFYjNuj
+    CKdZgQKBgQDSkA6S5C1zORvtfss/pgfusfL2oKV0Ex8uncEgHX2Pw681fvY8qw+g
+    XFHPxMrsMJe7cL9gmCHgbt2NqKH+Ik8Bim2JE+cBODz3OS7PgWVwvd5q62yhK4/I
+    nM7nU3joHZ4rddBncevrXqjrenEBXNZBTubN4rVFt9yRQpPJ2xz8Cg==
+    -----END RSA PRIVATE KEY-----

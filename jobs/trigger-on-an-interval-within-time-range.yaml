@@ -1,0 +1,24 @@
+resources:
+  - name: job-5m-during-midnight-hour
+    type: time
+    source:
+      interval: 5m
+      start: 2:00 PM
+      stop: 7:00 PM
+      location: Asia/Shanghai
+
+jobs:
+  - name: something-every-5m-during-midnight-hour
+    plan:
+      - get: job-5m-during-midnight-hour
+        trigger: true
+      - task: something
+        config:
+          platform: linux
+          image_resource:
+            type: registry-image
+            source:
+              repository: busybox
+          run:
+            path: echo
+            args: [ "this is an interval task job..." ]

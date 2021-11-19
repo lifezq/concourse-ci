@@ -1,0 +1,11 @@
+resources:
+  - name: booklit
+    type: git
+    source: { uri: https://github.com/vito/booklit }
+jobs:
+  - name: reconfigure
+    plan:
+      - get: booklit
+        trigger: true
+      - set_pipeline: booklit
+        file: booklit/ci/pipeline.yml
